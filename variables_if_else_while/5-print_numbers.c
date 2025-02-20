@@ -3,11 +3,10 @@
 /**
 *main- printing a program that prints all singgle digits
 *They all need to be based on 10 and start from 0*
-*return: always 0 (success)
+*Return: always 0 (success)
 */
 
 int main(void)
-
 {
 
 	int n;
