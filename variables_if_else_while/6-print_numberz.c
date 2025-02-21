@@ -1,21 +1,18 @@
 #include <stdio.h>
 
 /**
-*main - printing all single digit numbers
-* without using variables of type char*
-*Return: always 0 (success)
-*/
-
+ * main - Prints numbers 0-9 using putchar
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
-
 {
-
 	int n;
 
-for (n = 0; n <= 9; n++)
-	putchar(n + '0');
+	for (n = 0; n <= 9; n++)
 	putchar(n + '0');
 
-return (0);
+	putchar('\n');
 
+	return (0);
 }
