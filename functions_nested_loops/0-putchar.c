@@ -7,7 +7,7 @@
 int main(void)
 {
 
-	char n[] = "_puctchar";
+	char n[] = "_putchar";
 	int i;
 
 	for (i = 0; n[i] != '\0'; i++)
